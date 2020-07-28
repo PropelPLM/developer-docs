@@ -1,6 +1,11 @@
 module.exports = {
   someSidebar: {
-    'Getting Started': ['introduction','available-apis', 'salesforce-vs-propel', 'authentication', 'object-model'],
+    'Getting Started': ['introduction','available-apis', 'salesforce-vs-propel', 'authentication', 
+      { 'label': 'Object Model',
+        'type' : 'category',
+        'items': ['object-model-core-objects','object-model-attachments']
+      }
+    ],
     'Integration Patterns': [
       {
       'label': 'Event-based Messaging',

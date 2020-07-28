@@ -1,8 +1,8 @@
 module.exports = {
   title: 'Propel Developer Docs',
   tagline: 'Build enterprise integrations and extend the Propel Platform.',
-  url: 'https://developer.propelplm.com',
-  baseUrl: '/',
+  url: 'https://propelplm.github.io',
+  baseUrl: '/developer-docs/',
   onBrokenLinks: 'throw',
   favicon: 'img/spinner-trans.png',
   organizationName: 'PropelPLM', // Usually your GitHub org/user name.

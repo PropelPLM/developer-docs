@@ -21,7 +21,7 @@ Core objects in Propel are defined as objects that are used in the majority of c
 ![](../static/img/item-assembly-erd.png)
 
 :::tip 
-`PDLM__Fixed_Child_Revision__c` **is calculated at runtime**, meaning if you query the database, you will **not** see a value for any records in the database when queried. You can only retrieve the value by leveraging the GET BOM (/v2/bom) endpoint.
+`PDLM__Fixed_Child_Revision__c` **is calculated at runtime**, meaning if you query the database, you will **not** see a value for this field on any records in the database. You can only retrieve the value by leveraging the `GET /v2/bom` endpoint.
 :::
 
 ### Item, Manufacturer, Manufacturer Part

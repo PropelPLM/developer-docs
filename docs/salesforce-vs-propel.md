@@ -49,10 +49,9 @@ All of the actions will occur in one transaction initiated via the API.
 
 ### Salesforce API
 To create a new Item in Propel via the Salesforce API, you must follow these steps:
-Make a `POST` request to the following endpoint to insert a new `PDLM__Item__c` record: 
 
 &nbsp;  
-**First**, query for the `Category` Id.
+**First**, query for the `Category` Id for the type of Item you want to create.
 ``` curl title="Endpoint"
 GET https://{{orgId}}.salesforce.com/services/data/v20.0/query/?q=select Id from PDLM__Category__c where Name = 'Capacitor'
 ```

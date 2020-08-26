@@ -3,6 +3,9 @@ id: object-model-core-objects
 title: Core Objects
 sidebar_label: Core Objects
 ---
+:::tip
+If you haven't already, we suggest you explore the [Salesforce Schema Builder](https://help.salesforce.com/articleView?id=schema_builder_working.htm&type=5) to get an overview of all Propel objects and their relationships.
+:::
 
 Core objects in Propel are defined as objects that are used in the majority of customers' implementations. It is important to understand how these objects are related to each other as they have embedded business logic. These core objects are:
 
@@ -25,5 +28,7 @@ Core objects in Propel are defined as objects that are used in the majority of c
 :::
 
 ### Item, Manufacturer, Manufacturer Part
+![](../static/img/item-mfr-erd.png)
 
 ## Change and Quality Object Model
+![](../static/img/change-quality-ai-erd.png)

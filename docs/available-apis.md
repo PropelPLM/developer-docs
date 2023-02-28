@@ -10,13 +10,13 @@ There are two APIs currently available. Both APIs require authentication and all
 
 ## Propel APIs
 
-### [Propel Standard REST APIs](https://api-docs.propelplm.com/)
+### [Propel Standard REST APIs](https://documenter.getpostman.com/view/18799091/2s93CSnVUm)
 The standard APIs are resource-based endpoints for core objects in Propel. These APIs should be leveraged for use cases such as:
 - Creating and updating Items and Changes
 - Fetching a Bill of Materials (BOM)
 - Creating Item Attachments
 
-### [Propel Import REST API](https://documenter.getpostman.com/view/6385615/SVfKyr1m?version=latest)
+### [Propel Import REST API](https://documenter.getpostman.com/view/18799091/2s93CSnVUm#2c9b1d3b-dc05-497c-a304-4051540242eb)
 The Propel Import API is meant for bulk data import operations that include objects: Items, BOMs, Manufacturer Parts.
 
 The Propel Import API leverages Import V1 which can import up BOMs with up to 400 children. It may be necessary to chunk your transaction if your BOM is larger than this threshold.

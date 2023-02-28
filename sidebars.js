@@ -32,15 +32,17 @@ module.exports = {
       'apex-invocables'
     ],
     'API Reference': [
+      // Old REST API: https://api-docs.propelplm.com
       {
         type : 'link',
         label: 'Propel REST API', // The label that should be displayed (string).
-        href : 'https://api-docs.propelplm.com' // The target URL (string).
+        href : 'https://documenter.getpostman.com/view/18799091/2s93CSnVUm' // The target URL (string).
       },
+      // Old Import API: https://documenter.getpostman.com/view/6385615/SVfKyr1m?version=latest
       {
         type : 'link',
         label: 'Propel Import API',
-        href : 'https://documenter.getpostman.com/view/6385615/SVfKyr1m?version=latest'
+        href : 'https://documenter.getpostman.com/view/18799091/2s93CSnVUm#2c9b1d3b-dc05-497c-a304-4051540242eb'
       }  
     ]
   },
